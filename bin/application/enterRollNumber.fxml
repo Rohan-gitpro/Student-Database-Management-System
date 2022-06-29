@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.enterRollNumberController">
+	<children>
+		<AnchorPane prefHeight="69.0" prefWidth="600.0"
+			style="-fx-background-color: #ef5350;">
+			<children>
+				<ImageView fx:id="goBack" fitHeight="33.0" fitWidth="27.0"
+					layoutX="8.0" layoutY="35.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@icons/icons8-go-back-24.png" />
+					</image>
+				</ImageView>
+			</children>
+		</AnchorPane>
+		<Label alignment="CENTER" layoutX="14.0" layoutY="217.0"
+			prefHeight="18.0" prefWidth="229.0" text="ROLL NUMEBR">
+			<font>
+				<Font name="Britannic Bold" size="18.0" />
+			</font>
+		</Label>
+		<TextField fx:id="labelRollNumber" layoutX="243.0"
+			layoutY="209.0" prefHeight="34.0" prefWidth="272.0"
+			promptText="ENTER ROLL NUMBER">
+			<font>
+				<Font name="Arial Rounded MT Bold" size="18.0" />
+			</font>
+		</TextField>
+		<Button fx:id="showResultButton" layoutX="200.0"
+			layoutY="314.0" mnemonicParsing="false" text="SHOW RESULT">
+			<font>
+				<Font name="Bookman Old Style Bold" size="18.0" />
+			</font>
+		</Button>
+	</children>
+</AnchorPane>
